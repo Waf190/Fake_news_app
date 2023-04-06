@@ -22,10 +22,8 @@ vectorize_layer = loaded_model.layers[0]
 with open("kmea.pkl","rb") as file:
     kmea=pickle.load(file)
     
-with zipfile.ZipFile('model.zip', 'r') as zip_ref:
-    zip_ref.extractall()
     
-model = keras.models.load_model('model')
+model = keras.models.load_model('model.h5')
 
 #feature miner
 feature_miner=Model(
