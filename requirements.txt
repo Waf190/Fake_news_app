@@ -1,6 +1,6 @@
 pandas
 numpy
-emoji==1.7.0
+emoji
 tensorflow==2.11.0
 pickle
 keras==2.11.0
