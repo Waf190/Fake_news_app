@@ -1,11 +1,11 @@
 pandas
 numpy
 emoji
-tensorflow==2.11.0
+tensorflow
 pickle
-keras==2.11.0
+keras
 requests
-tensorflow==2.11.0
+tensorflow
 shiny
 sklearn 
 zipfile
